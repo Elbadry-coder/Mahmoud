@@ -1,0 +1,121 @@
+
+body{
+    background-color: #0D0D0D;
+    min-height: 100vh;
+}
+
+/*========================= start aside Style =========================*/
+.aside_style{
+    z-index: 99;
+}
+.aside_style .navbar_side{
+    width: 70px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.aside_style .navbar_side i{
+    cursor: pointer;
+}
+
+.aside_style .links_style{
+    width: 250px;
+    display: none;
+    white-space: nowrap;
+}
+.aside_style .links_style .list{
+    margin-bottom: 200px;
+    margin-top: 50px;
+}
+.aside_style .links_style ul li{
+    list-style: none;
+    padding-block: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.aside_style .links_style .icons{
+    padding-inline: 25px;
+   
+}
+.aside_style .links_style .icons i{
+    cursor: pointer;
+}
+/*========================= End aside Style =========================*/
+
+/*========================= Start Search Inputs Style =========================*/
+.search_inputs input{
+    background-color: transparent !important;
+    border-radius: 30px;
+    padding: 15px;
+    border: 2px solid #fff;  
+}
+
+/*========================= End Search Inputs Style =========================*/
+
+/*========================= Start Home Style =========================*/
+.home .content{
+    position: relative;
+    overflow: hidden;
+}
+.home img{
+    border-radius: 20px;
+    
+}
+.home .overLay{
+    background-color: rgba(221, 218, 215, 0.603);
+    color: #0D0D0D;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 20px;
+    bottom: -110%;
+    transition: all .5s;
+    cursor: pointer;
+}
+.home .content:hover .overLay{
+    bottom: 0%;
+    border-radius: 20px;
+}
+.textStyle{
+    font-size: 50px;
+}
+/*========================= End Home Style =========================*/
+
+
+
+/*========================= Start Overlay Data Box Style =========================*/
+.box{
+    background-color: #0D0D0D;
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+.col-md-8 .span_list span{
+    background-color: #09c;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 5px;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+}
+ .col-md-8 .tag_span{
+    color: #000;
+    display: inline-block;
+    background-color: #F8D7DA;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-block: 20px;
+}
+.col-md-8 a {
+    color: white;
+    margin-inline: 5px;
+}
+ .col-md-8 .src{
+    background-color: var(--bs-green);
+    border: none;
+}
+/*========================= End Overlay Data Box Style =========================*/

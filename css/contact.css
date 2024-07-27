@@ -1,0 +1,67 @@
+body{
+    background-color: #0D0D0D;
+    min-height: 100vh;
+}
+
+/*========================= start aside Style =========================*/
+.aside_style{
+    z-index: 99;
+}
+.aside_style .navbar_side{
+    width: 70px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.aside_style .navbar_side i{
+    cursor: pointer;
+}
+
+.aside_style .links_style{
+    color: #0D0D0D;
+    width: 250px;
+    display: none;
+    white-space: nowrap;
+}
+.aside_style .links_style .list{
+    margin-bottom: 200px;
+    margin-top: 50px;
+}
+.aside_style .links_style ul li{
+    list-style: none;
+    padding-block: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.aside_style .links_style .icons{
+    padding-inline: 25px;
+   
+}
+.aside_style .links_style .icons i{
+    cursor: pointer;
+}
+/*========================= End aside Style =========================*/
+
+
+/*========================= Start Contact Style =========================*/
+.container .form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 100px;
+}
+.container .form .input_style{
+    background-color: transparent;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    padding: 15px;
+    width: 40%;
+    margin: 10px;
+    color: #fff;
+}
+
+.w-fit{
+    width:fit-content
+}
+/*========================= End Contact Style =========================*/
